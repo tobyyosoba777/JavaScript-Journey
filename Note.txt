@@ -1,0 +1,12 @@
+to call a function, you need to work on event, You can used an onclick="" event in html to call a JavaScript function
+
+it is recommended to embed all javascript files into one external js document, because it provides code re-usablity and it allows the webpage to run faster
+
+JavaScript comments are meaningful way to deliver messages, it is used to add information about the code, warnings or suggestions so that the end user can eaily interpret the code.
+
+The JavaScript comment is ignored by the JavaScript engine, i.e. embedded in the web browser
+Types of comments in JavaScript
+*Single-line Comment
+*Multi-line Comment
+
+s

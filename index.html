@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JavaScript Practice</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script type="text/javascript" src=""></script>
+        <script type="text/javascript" src=""></script>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#Docs">Docs</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+          </div>
+
+        <div class="modules">
+            <link href="style.css" rel="stylesheet">
+            <a href="index1.html">Javascript  basics</a>
+            <br>
+            <a href="index2.html">basics, modulus operations,<br> if-else statement and while loops </a>
+            <br>
+            <a href="index3.html">javascript date and <br> time practice </a>
+            <br>
+            <a href="index4.html">javascript date object <br> and objects </a>
+            <br>
+            <a href="index5.html">Udemy Practice</a>
+          </div>
+    </head>
+    <br>
+    <br>
+    <body>
+        <script type="text/javascript" src="getdate.js"></script>
+        <input type="button" value="check local date" onclick="getDate();" />
+
+        <br>
+
+        Current Date and Time: <span id="txt"></span>
+        <script>
+            var today=new Date();
+            document.getElementById('txt').innerHTML =today;
+            </script>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    </body>
+</html>
