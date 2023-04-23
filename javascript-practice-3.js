@@ -90,3 +90,16 @@ var day = date.getDay();
 var month = date.getMonth();
 var year = date.getFullYear();
 document.write("the day is: " + day + "/" + month + "/" + year);
+
+document.write("<br/>" + "<br/>")
+
+var date = new Date();
+var day = date.getDate();
+var month = date.getMonth();
+var year = date.getFullYear();
+document.write("today's date is: " + day + "/" + month + "/" + year);
+
+document.write("<br/>" + "<br/>")
+
+var date = new Date();
+document.write(date);

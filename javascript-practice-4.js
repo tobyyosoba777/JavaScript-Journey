@@ -88,6 +88,7 @@ var year = date.getFullYear();
 document.write("today's date is " + day + "/" + month + "/" + year)
 
 
+
 window.onload=function(){getTime();}
 function getTime(){
     var today=new Date();
