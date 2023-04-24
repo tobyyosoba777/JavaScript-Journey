@@ -59,3 +59,17 @@ class user {
 }
 var opp = new user("tobi", 123);
 opp.detail();
+
+document.write("<br>")
+
+class on {
+    constructor(one,two) {
+        this.one = one;
+        this.two = two;
+    }
+    details() {
+        document.writeln(this.one + " " + this.two);
+    }
+}
+var onn = new on(1, 2)
+onn.details();
