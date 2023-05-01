@@ -10,7 +10,7 @@ document.write(first.id, first.letter + "<br>");
 
 second = {
     id: 2,
-    letter: "b",
+    letter: "c",
 }
 document.write(second.id, second.letter, "<br>");
 
