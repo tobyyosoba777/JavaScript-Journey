@@ -57,7 +57,7 @@ class user {
         document.writeln(this.name + " " + this.number);
     }
 }
-var opp = new user("tobi", 123456789101112131415);
+var opp = new user("tobi", 1234567891011121314156);
 opp.detail();
 
 document.write("<br>")
