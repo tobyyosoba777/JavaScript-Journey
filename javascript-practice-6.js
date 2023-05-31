@@ -57,7 +57,7 @@ class user {
         document.writeln(this.name + " " + this.number);
     }
 }
-var opp = new user("tobi", 12345678910111213141561718192021222324);
+var opp = new user("tobi", 1234567891011121314156171819202122232425);
 opp.detail();
 
 document.write("<br>")
@@ -72,4 +72,4 @@ class on {
     }
 }
 var onn = new on(1, 2)
-onn.details(); 
+onn.details();
