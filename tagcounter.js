@@ -8,9 +8,14 @@ function countheader2(){
     alert("total h2 tags used: " + totalh2.length);
 }
 
-function countheader3(){
+// function countheader3(){
+//     totalh3 = document.getElementsByTagName("h3");
+//     alert("total h3 tags: " + totalh3.length);
+// }
+
+function countheader3() {
     totalh3 = document.getElementsByTagName("h3");
-    alert("total h3 tags: " + totalh3.length);
+    alert("total h3 tags are: " + totalh3.length + " in number")
 }
 
 function countheader4(){

@@ -6,6 +6,17 @@ if(a%2==0){
 else{
     document.write("a is odd number");
 }
+
+document.write("<br>")
+
+var ac = 20;
+if(ac%2==0) {
+    document.write("ac is an even number");
+}
+else {
+    document.write("a is an odd number");
+}
+
 document.write('<br/>')
 //if else statement
 var t=20;
@@ -13,6 +24,7 @@ if (t==20){
     document.write(' t is 20 ');
 }
 
+document.write("<br>" + "<br>");
 
 //if else statement
 var number = 3;
@@ -22,6 +34,15 @@ if (number>2){
 else if(number<2){
     document.write('the given number is not up to 2');
 }
+
+document.write("<br>" + "<br>");
+
+var numeric = 21;
+if(numeric>23 | numeric==21) {
+    document.write("numeric is greater than 20");
+}
+
+document.write("<br>" + "<br>");
 
 var numb = 9.1;
 if(numb==9.1){
